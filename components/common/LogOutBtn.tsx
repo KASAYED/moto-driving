@@ -14,13 +14,13 @@ const LogOutButton = ({ withTooltip = false }) => {
       action={async () => {
         "use server";
         await signOut();
-        redirect("/");
+        redirect('/')
       }}
     >
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <button className="rounded-full bg-slate-100 p-1 dark:bg-slate-300 dark:text-slate-700">
+            <button className=" rounded-full bg-slate-100 p-1 dark:bg-slate-300 dark:text-slate-700">
               <LuLogOut size={20} />
             </button>
           </TooltipTrigger>

@@ -1,3 +1,5 @@
+'use client'
+
 import { HiOutlineHome } from "react-icons/hi";
 import { MdImportantDevices, MdOutlineMenuBook } from "react-icons/md";
 import { IoSettingsOutline } from "react-icons/io5";
